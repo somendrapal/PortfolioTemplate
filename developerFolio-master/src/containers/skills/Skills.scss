@@ -1,0 +1,45 @@
+@import "../../_globalColor";
+
+.skills-section {
+  max-width: 1280px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.skills-content {
+  width: 100%;
+}
+
+.skills-heading {
+  margin: 0;
+  color: $textColor;
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.skills-text-subtitle {
+  margin: 0.8rem 0 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+.dark-mode .skills-heading {
+  color: $textColorDark;
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .skills-heading {
+    font-size: 2rem;
+  }
+
+  .skills-text-subtitle {
+    font-size: 0.9rem;
+  }
+}

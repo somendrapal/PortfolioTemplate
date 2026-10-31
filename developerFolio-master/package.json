@@ -1,0 +1,59 @@
+{
+  "name": "developerfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.29.10",
+    "colorthief": "^2.3.0",
+    "gh-pages": "^2.1.1",
+    "lottie-react": "^2.4.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.0.0",
+    "react-reveal": "^1.2.2",
+    "react-twitter-embed": "3.0.3",
+    "sass": "^1.32.8",
+    "simple-icons": "^16.36.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "dev": "node fetch.js && vite --host 0.0.0.0 --port 3000",
+    "start": "npm run dev",
+    "build": "node fetch.js && tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "deploy": "gh-pages -b master -d dist",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,jsx,ts,tsx,css,json,scss}\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.62",
+    "@types/react-dom": "^16.9.25",
+    "@vitejs/plugin-react": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "jsdom": "^25.0.1",
+    "prettier": "^2.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.5"
+  }
+}

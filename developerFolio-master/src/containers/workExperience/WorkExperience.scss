@@ -1,0 +1,44 @@
+.experience-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+  align-items: stretch;
+  gap: 1.25rem;
+}
+
+.experience-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.experience-container {
+  display: flex;
+  width: min(90%, 1280px);
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.experience-container > * {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .experience-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    width: 92%;
+    padding: 16px 0;
+  }
+
+  .experience-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}
