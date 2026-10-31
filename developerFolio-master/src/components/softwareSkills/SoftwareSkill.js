@@ -4,21 +4,16 @@ import {
   siCplusplus,
   siConfluence,
   siCss,
-  siDocker,
   siEslint,
-  siExpress,
   siGit,
   siGithubactions,
   siGitlab,
-  siGraphql,
   siHtml5,
   siJavascript,
   siJenkins,
-  siJest,
   siJirasoftware,
   siJsonwebtokens,
   siMui,
-  siMongodb,
   siNextdotjs,
   siNodedotjs,
   siNpm,
@@ -28,11 +23,11 @@ import {
   siRedux,
   siShadcnui,
   siSpringboot,
+  siTanstack,
   siTailwindcss,
   siTestinglibrary,
   siTypescript,
-  siWebpack,
-  siYarn
+  siWebpack
 } from "simple-icons";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
@@ -43,21 +38,16 @@ const skillIcons = {
   cplusplus: siCplusplus,
   confluence: siConfluence,
   css: siCss,
-  docker: siDocker,
   eslint: siEslint,
-  express: siExpress,
   git: siGit,
   githubactions: siGithubactions,
   gitlab: siGitlab,
-  graphql: siGraphql,
   html5: siHtml5,
   javascript: siJavascript,
   jenkins: siJenkins,
-  jest: siJest,
   jirasoftware: siJirasoftware,
   jsonwebtokens: siJsonwebtokens,
   mui: siMui,
-  mongodb: siMongodb,
   nextdotjs: siNextdotjs,
   nodedotjs: siNodedotjs,
   npm: siNpm,
@@ -67,11 +57,11 @@ const skillIcons = {
   redux: siRedux,
   shadcnui: siShadcnui,
   springboot: siSpringboot,
+  tanstack: siTanstack,
   tailwindcss: siTailwindcss,
   testinglibrary: siTestinglibrary,
   typescript: siTypescript,
-  webpack: siWebpack,
-  yarn: siYarn
+  webpack: siWebpack
 };
 
 function SkillIcon({skill}) {

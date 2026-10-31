@@ -51,10 +51,11 @@ Developed React, Redux, and TypeScript interfaces for a healthcare platform supp
 
 ## Technical Skills
 
-**Frontend:** React, TypeScript, JavaScript, Redux, Redux Toolkit, Next.js, HTML5, CSS3, Tailwind CSS, shadcn/ui, Material UI  
-**Backend & APIs:** Node.js, Express, REST APIs, GraphQL, Spring Boot, FHIR  
-**Testing & quality:** Jest, React Testing Library, ESLint, code review, accessibility  
-**Tools & platforms:** Git, GitHub Actions, AWS, Docker, Jenkins, GitLab, PostgreSQL, MongoDB
+- **Frontend:** React, TypeScript, JavaScript, Next.js, HTML5, CSS3, Tailwind CSS, shadcn/ui, Material UI
+- **State management & data fetching:** Redux, Redux Toolkit, TanStack Query, Context API
+- **Backend & APIs:** Node.js, REST APIs, Spring Boot, FHIR
+- **Testing & quality:** React Testing Library, ESLint, code review, accessibility
+- **Tools & platforms:** Git, GitHub Actions, AWS, Jenkins, GitLab, PostgreSQL
 
 ## Education
 

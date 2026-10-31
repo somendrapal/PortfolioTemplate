@@ -65,8 +65,6 @@ const skillsSection = {
         {name: "Tailwind CSS", icon: "tailwindcss"},
         {name: "shadcn/ui", icon: "shadcnui"},
         {name: "MUI / Material UI", icon: "mui"},
-        {name: "Redux", icon: "redux"},
-        {name: "Redux Toolkit", icon: "redux"},
         {name: "DOM", iconClass: "fas fa-code"},
         {name: "Frontend Architecture", iconClass: "fas fa-sitemap"}
       ]
@@ -77,7 +75,8 @@ const skillsSection = {
         {name: "Redux", icon: "redux"},
         {name: "Context API", icon: "react"},
         {name: "Redux Thunk", icon: "redux"},
-        {name: "Redux Slices", icon: "redux"},
+        {name: "Redux Toolkit", icon: "redux"},
+        {name: "TanStack Query", icon: "tanstack"},
         {name: "Middleware", iconClass: "fas fa-project-diagram"},
         {name: "Reducers", iconClass: "fas fa-compress-arrows-alt"},
         {name: "Selectors", iconClass: "fas fa-filter"}
@@ -97,7 +96,6 @@ const skillsSection = {
     {
       category: "Testing & Quality",
       skills: [
-        {name: "Jest", icon: "jest"},
         {name: "React Testing Library", icon: "testinglibrary"},
         {name: "Unit Testing", iconClass: "fas fa-vial"},
         {name: "ESLint", icon: "eslint"},
@@ -124,9 +122,7 @@ const skillsSection = {
       category: "Backend & APIs",
       skills: [
         {name: "RESTful APIs", iconClass: "fas fa-exchange-alt"},
-        {name: "GraphQL", icon: "graphql"},
         {name: "Node.js", icon: "nodedotjs"},
-        {name: "Express", icon: "express"},
         {name: "JSON Web Token", icon: "jsonwebtokens"},
         {name: "Spring Boot", icon: "springboot"},
         {name: "FHIR", iconClass: "fas fa-heartbeat"}
@@ -135,8 +131,7 @@ const skillsSection = {
     {
       category: "Databases",
       skills: [
-        {name: "PostgreSQL", icon: "postgresql"},
-        {name: "MongoDB", icon: "mongodb"}
+        {name: "PostgreSQL", icon: "postgresql"}
       ]
     },
     {
@@ -145,12 +140,10 @@ const skillsSection = {
         {name: "CI/CD", iconClass: "fas fa-code-branch"},
         {name: "GitHub Actions", icon: "githubactions"},
         {name: "AWS", iconClass: "fab fa-aws"},
-        {name: "Docker", icon: "docker"},
         {name: "Git", icon: "git"},
         {name: "Jenkins", icon: "jenkins"},
         {name: "GitLab", icon: "gitlab"},
-        {name: "NPM", icon: "npm"},
-        {name: "Yarn", icon: "yarn"}
+        {name: "NPM", icon: "npm"}
       ]
     }
   ],
