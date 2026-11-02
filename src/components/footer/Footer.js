@@ -14,17 +14,7 @@ export default function Footer() {
             ·
           </span>
           Built with React
-          <span className="footer-separator" aria-hidden="true">
-            ·
-          </span>
-          Theme:{" "}
-          <a
-            href="https://github.com/saadpasta/developerFolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            developerFolio
-          </a>
+        
         </p>
       </div>
     </Fade>
